@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+
+<title>PWRScript</title>
+<link>https://www.pwrscript.dedyn.io</link>
+<description>The official RSS feed for getting PWRScript news and updates</description>
+<copyright>Copyright (c) 2021-present PWRScript</copyright>
+<webMaster>powerofthescript@outlook.com (Miguel Lopes)</webMaster>
+<managingEditor>powerofthescript@outlook.com (Miguel Lopes)</managingEditor>
+<language>en-us</language>
+<lastBuildDate>Thu, 25 Nov 2021 21:40:00 GMT </lastBuildDate>
+    <pubDate>Thu, 25 Nov 2021 21:40:00 GMT </pubDate>
+<image>
+  <url>https://www.pwrscript.dedyn.io/static/img/pwrscript.png</url>
+  <title>PWRScript</title>
+  <link>https://www.pwrscript.dedyn.io</link>
+</image>
+
+<item>
+    <author>powerofthescript@outlook.com (Miguel Lopes)</author>
+    <title>Preparing the PWRScript experience for you...</title>
+    <link>https://www.pwrscript.dedyn.io</link>
+    <guid>https://www.pwrscript.dedyn.io/</guid>
+    <description>We will be launching our website at https://www.pwrscript.dedyn.io in a few weeks</description>
+    <pubDate>Thu, 25 Nov 2021 21:40:00 GMT </pubDate>
+</item>
+
+</channel>
+
+</rss>
