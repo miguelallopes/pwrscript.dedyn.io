@@ -1,0 +1,63 @@
+
+body {
+    margin: auto;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.74),rgb(69, 69, 139));
+    
+     
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    padding-inline-start: 0;
+    background: rgba(0, 0, 0, 0.377);
+    vertical-align: middle;
+    
+
+    
+    
+    float: left;
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+
+ul li{
+    position: relative;
+
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.473);
+   
+}
+
+ul li:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.651);
+    transition: 100ms;
+    transform: scale(120%);
+    
+}
+
+.active {
+    
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+.active:hover {
+    
+    transition: 50ms;
+    transform: scale(120%);
+    background-color: rgba(255, 255, 255, 0.856);
+}

@@ -1,0 +1,75 @@
+.blog-post-card {
+    background-color: blueviolet;
+    width: 100%;
+    height: calc(20%);
+}
+
+.blog-post-card img {
+    position: relative; 
+    left: 1%; 
+    top: 5%; 
+    float: left;
+}
+
+
+.blog {
+    
+    background-color: rgb(22, 25, 78);
+    width: 98%;
+    height: calc(100% - 70px);
+    position: absolute;
+    left: 1%;
+    top: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+    float: right;
+}
+
+.about-me {
+    
+    background-color: rgb(22, 25, 78);
+    width: 98%;
+    height: calc(100% - 70px);
+    position: absolute;
+    left: 1%;
+    top: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+    float: right;
+}
+
+.contact-me {
+    
+    background-color: rgb(78, 70, 22);
+    width: 98%;
+    height: calc(100% - 70px);
+    position: absolute;
+    top: 5px;
+    left: 1%;
+    
+    vertical-align: middle;
+    margin: 0 auto;
+    float: right;
+}
+
+.my-projects {
+    
+    background-color: rgb(78, 70, 22);
+    width: 98%;
+    height: calc(100% - 70px);
+    position: absolute;
+    top: 5px;
+    left: 1%;
+    
+    vertical-align: middle;
+    margin: 0 auto;
+    float: right;
+}
+
+#projects-footer {
+    width: 98%;
+    text-align: center;
+    position: absolute;
+    top: calc(100% - 60px);
+    font-weight: bolder;
+}

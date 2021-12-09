@@ -1,0 +1,78 @@
+#pwrscript-button {
+    margin-top: 85%;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+nav ul {
+    background-image: url("/static/img/pwrscript.png");
+    background-size: cover;
+    height: 60px;
+    width: 20px;
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+nav ul:hover  {
+    background-color: blueviolet;
+    overflow: visible;
+
+}
+
+nav ul li {
+    
+    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: none;
+
+    
+
+}
+
+nav ul li span {
+    
+    position: relative;
+    top: 40%;
+    
+
+    
+
+}
+
+
+
+.show-menus {
+    display: inline-block;
+    background-color: green;
+    position: relative;
+    border-radius: 50%;
+    transform-origin: 75px 150px;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+#pwrscript-button :hover {
+    transform: rotate(  45%);
+}
