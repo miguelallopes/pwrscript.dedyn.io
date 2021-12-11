@@ -1,0 +1,12 @@
+{
+    "github": [
+        "pwrscript/PWRUPnPMineExpose", 
+        "pwrscript/GlobalProgramLib",
+        "pwrscript/PWRCord"
+    ],
+    
+    "gitlab": [
+    ],
+
+    "version" : 1
+}

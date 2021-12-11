@@ -110,4 +110,4 @@ function AboutMe() {
     showAboutMe();
 }
 
-Search()
+Projects()
