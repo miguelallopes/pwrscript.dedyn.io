@@ -109,5 +109,4 @@ function AboutMe() {
     hideProjects()
     showAboutMe();
 }
-
-Projects()
+Search()

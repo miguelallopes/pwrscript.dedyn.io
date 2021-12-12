@@ -8,6 +8,16 @@ class Project {
         if (type == "gitlab") {
             this.image = data.avatar_url
             this.url = data.web_url
+        } else {
+            fetch(this.url).then(
+                request => {
+                    request.text().then(contents => {
+                        this.image = new DOMParser().parseFromString(contents,"text/html").querySelector('meta[property="og:image"]').content
+                    })
+                    
+                }
+
+            )
         }
 
       }
