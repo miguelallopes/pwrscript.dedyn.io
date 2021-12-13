@@ -93,9 +93,7 @@
 	
 </head>
 <body>
-	<div id="offline-warning" style="position: absolute; top: 0;left: 0; display: inline-block; width: 100%; height: 20px; background-color: crimson;text-align: center;display: none;">
-		<span>Some features may not work when you're offline</span>
-	</div>
+	
 	<div id="g">
 		<table id="clock-table">
 			<tr>
@@ -180,8 +178,8 @@
 		</div>
 
 		<div id="my-projects" class="my-projects">
+			<input type="search" id="project-search" placeholder="Search for projects by their name..." style="width: 100%;" oninput="showAdequateProjects()">
 			<div id="projects-loader" class="loader"></div>
-			
 			<span id="projects-footer">See all of my work at <a href="https://github.com/PWRScript"><img src="/static/img/github.png" height="16px"></a> and <a href="https://gitlab.com/PWRScript"><img src="/static/img/gitlab.png" height="16px"></a></span>
 		</div>
 
@@ -194,10 +192,13 @@
 		</div>
 
 		<div id="about-me" class="about-me">
-			<div style="text-align: center;border: 15px solid ; background-color: brown;">
-				<span>About me</span>
-
-			</div>
+			
+			<h2>
+				Coming Soon
+			</h2>
+		</div>
+		<div id="offline-warning" style="position: absolute; top: 0;left: 0; display: inline-block; width: 100%; height: 20px; background-color: crimson;text-align: center; display: none;">
+			<span>Some features may not work when you're offline</span>
 		</div>
 		
 	

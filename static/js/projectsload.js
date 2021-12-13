@@ -40,6 +40,8 @@ class Project {
 
 let loaded_projects = []
 
+let loaded_social_contacts = {}
+
 
 async function load_projects() { 
     let projects = []
@@ -90,6 +92,20 @@ async function load_projects() {
                 return
             }
 
+            loaded_projects.sort((a,b) => {
+                let name_a = a.name.toLowerCase(), name_b = b.name.toLowerCase();
+
+                if (name_a < name_b) {
+                    return -1;
+                }
+
+                if (name_a > name_b) {
+                    return 1;
+                }
+
+                return 0;
+            })
+
             loaded_projects.forEach( project => {
                     document.getElementById("my-projects").innerHTML += '<div class="project"><br><img src="' + project.image + '"><h4 class="project-title"> <a href="' + project.url + '">' + project.name + '</a></h4><span class="project-summary">' + project.description+'</span></div>'
             
@@ -106,4 +122,58 @@ async function load_projects() {
                 
     })
 }
+
+function showAdequateProjects() {
+    let data = document.getElementById("project-search").value
+
+    data = data.toLowerCase()
+    
+    if (data == '') {
+
+        document.querySelectorAll(".project").forEach( project => {
+                project.remove();
+        })
+
+
+        loaded_projects.forEach( project => {
+            document.getElementById("my-projects").innerHTML += '<div class="project"><br><img src="' + project.image + '"><h4 class="project-title"> <a href="' + project.url + '">' + project.name + '</a></h4><span class="project-summary">' + project.description+'</span></div>'
+    
+    
+        
+    }
+    )
+    
+    document.getElementById("project-search").focus()
+        return ;
+    }
+    
+    
+
+    document.querySelectorAll(".project").forEach( project => {
+        if (!(project.getElementsByTagName("h4")[0].innerText.toLowerCase().startsWith(data))) {
+            project.remove();
+        }
+    })
+
+    
+}
+
+async function load_social_contacts() {  
+    let social_response = await fetch("/static/json/social.json")
+
+    if (social_response.ok) {
+        let social_json = await social_response.json();
+        if (social_json.version == 1) { 
+            loaded_social_contacts["discord"] = social_json.discord
+            loaded_social_contacts["github"] = social_json.github
+            loaded_social_contacts["gitlab"] = social_json.gitlab
+            loaded_social_contacts["email"] = social_json.email
+        }
+        
+    }
+}
+
+load_social_contacts()
 load_projects()
+
+showAdequateProjects()
