@@ -116,7 +116,7 @@ h2 {
     vertical-align: middle;
     margin: 0 auto;
     float: right;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 #projects-footer {
