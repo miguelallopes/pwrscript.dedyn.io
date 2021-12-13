@@ -2,7 +2,8 @@
     "github": [
         "pwrscript/PWRUPnPMineExpose", 
         "pwrscript/GlobalProgramLib",
-        "pwrscript/PWRCord"
+        "pwrscript/PWRCord",
+        "pwrscript/Calculadora"
     ],
     
     "gitlab": [

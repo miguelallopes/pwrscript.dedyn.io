@@ -5,6 +5,8 @@
 
 h1 {
     color: white;
+    width: 300px;
+    text-align: center;
 }
 
 h2 {
@@ -129,6 +131,7 @@ h2 {
     vertical-align: middle;
     margin: 0 auto;
     float: right;
+    
 }
 
 .my-projects {
@@ -145,10 +148,26 @@ h2 {
     float: right;
     overflow-y: auto;
     overflow-x: hidden;
+    
 }
 
 .social-contact {
     
+}
+
+.social-icon {
+    display: inline-block;
+    
+    float: left;
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#projects-footer img {
+    background-color: black;
+    border-radius: 50%;
 }
 
 #projects-footer {
