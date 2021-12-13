@@ -14,9 +14,13 @@ h2 {
     border: 1px solid;
     float: left;
     background-color: rgba(224, 218, 228, 0.603);
-    width: 20%;
+    width: 48%;
     height: 90%;
     text-align: center;
+    overflow-y: auto;
+
+    
+
 }
 
 .project img {
@@ -112,13 +116,18 @@ h2 {
     vertical-align: middle;
     margin: 0 auto;
     float: right;
+    overflow: auto;
 }
 
 #projects-footer {
     display: block;
-    width: 98%;
+    background-color: rgb(78, 70, 22);
+    width: 100%;
+    height: 3.5%;
     text-align: center;
     position: absolute;
-    top: calc(100% - 40px);
+
+    top: 96.5%;
     font-weight: bolder;
+    position: sticky;
 }

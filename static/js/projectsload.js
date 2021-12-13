@@ -9,6 +9,7 @@ class Project {
             this.image = data.avatar_url
             this.url = data.web_url
         } else {
+            /*
             fetch(this.url).then(
                 request => {
                     request.text().then(contents => {
@@ -18,6 +19,19 @@ class Project {
                 }
 
             )
+            */
+
+          
+            if (this.name == "PWRCord") {
+                this.image = "/static/img/discord.png"
+            } else if (this.name == "GlobalProgramLib") {
+
+                this.image = "/static/img/globalprogramlib.png"
+            
+        } else if (this.name == "PWRUPnPMineExpose") {
+
+            this.image = "/static/img/PWRUPnPMineExpose.png"
+        }
         }
 
       }
@@ -77,13 +91,10 @@ async function load_projects() {
             }
 
             loaded_projects.forEach( project => {
-                if (project.type == "gitlab") {
                     document.getElementById("my-projects").innerHTML += '<div class="project"><br><img src="' + project.image + '"><h4 class="project-title"> <a href="' + project.url + '">' + project.name + '</a></h4><span class="project-summary">' + project.description+'</span></div>'
             
-                } else {
-                    document.getElementById("my-projects").innerHTML += '<div class="project"><br><img src="/static/img/pwrcord.png"><h4 class="project-title"> <a href="' + project.url + '">' + project.name + '</a></h4><span class="project-summary">' + project.description+'</span></div>'
             
-                }
+                
             }
 
             )
