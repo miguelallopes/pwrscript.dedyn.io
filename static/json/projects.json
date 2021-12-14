@@ -3,7 +3,9 @@
         "pwrscript/PWRUPnPMineExpose", 
         "pwrscript/GlobalProgramLib",
         "pwrscript/PWRCord",
-        "pwrscript/Calculadora"
+        "pwrscript/Calculadora",
+        "pwrscript/crafatar.py",
+        "pwrscript/PWRMod"
     ],
     
     "gitlab": [

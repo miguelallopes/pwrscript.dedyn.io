@@ -36,6 +36,14 @@ class Project {
 
         this.image = "/static/img/calculadoralogo.png"
     }
+    else if (this.name == "crafatar.py") {
+
+       this.image = "/static/img/crafatar.png"
+   }
+   else if (this.name == "PWRMod") {
+
+      this.image = "/static/img/pwrmod.png"
+  }
         }
 
       }
