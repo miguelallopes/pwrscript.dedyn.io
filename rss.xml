@@ -25,7 +25,10 @@
     <guid>https://www.pwrscript.dedyn.io/</guid>
     <description>We will be launching our website at https://www.pwrscript.dedyn.io in a few weeks</description>
     <pubDate>Thu, 25 Nov 2021 21:40:00 GMT </pubDate>
+    <enclosure url="https://www.pwrscript.dedyn.io/static/img/pwrscript.png"
+    length="265729" type="image/png" />
 </item>
+
 
 </channel>
 

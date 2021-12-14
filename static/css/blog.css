@@ -9,7 +9,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.coming-soon {
     color: white;
     text-align: center;
     position: relative;
@@ -80,16 +80,49 @@ h2 {
 }
 
 .blog-post-card {
-    background-color: blueviolet;
+    border: 1px solid;
+    float: left;
     width: 100%;
-    height: calc(20%);
+    height: 90%;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .blog-post-card img {
-    position: relative; 
-    left: 1%; 
-    top: 5%; 
-    float: left;
+    
+    position: relative;
+    width: fit-content;
+      
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+
+.blog-post-card a {
+    text-decoration: none;
+    
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+}
+.blog-post-card h2 {
+    
+ }
+
+ .blog-data {
+     position: sticky;
+     top: calc(100%);
+     width: 100%;
+     background-color: rgba(83, 80, 85, 0.603);
+ }
+
+.blog-post-card span {
+    
+   position:  static;
+   top: 100%;
+   color: white;
 }
 
 
@@ -98,12 +131,16 @@ h2 {
     background-color: rgba(20, 24, 78, 0.473);
     width: 98%;
     height: calc(100% - 70px);
+    
     position: absolute;
     left: 1%;
     top: 5px;
     vertical-align: middle;
     margin: 0 auto;
     float: right;
+    
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .about-me {
