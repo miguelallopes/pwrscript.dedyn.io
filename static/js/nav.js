@@ -99,6 +99,7 @@ function Projects() {
     hideBlog()
     hideAboutMe();
     showProjects()
+    
 }
 
 function AboutMe() {
