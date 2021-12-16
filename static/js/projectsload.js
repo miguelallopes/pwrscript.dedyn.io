@@ -23,26 +23,26 @@ class Project {
 
           
             if (this.name == "PWRCord") {
-                this.image = "/static/img/discord.png"
+                this.image = "static/img/discord.png"
             } else if (this.name == "GlobalProgramLib") {
 
-                this.image = "/static/img/globalprogramlib.png"
+                this.image = "static/img/globalprogramlib.png"
             
         } else if (this.name == "PWRUPnPMineExpose") {
 
-            this.image = "/static/img/PWRUPnPMineExpose.png"
+            this.image = "static/img/PWRUPnPMineExpose.png"
         }
      else if (this.name == "Calculadora") {
 
-        this.image = "/static/img/calculadoralogo.png"
+        this.image = "static/img/calculadoralogo.png"
     }
     else if (this.name == "crafatar.py") {
 
-       this.image = "/static/img/crafatar.png"
+       this.image = "static/img/crafatar.png"
    }
    else if (this.name == "PWRMod") {
 
-      this.image = "/static/img/pwrmod.png"
+      this.image = "static/img/pwrmod.png"
   }
         }
 

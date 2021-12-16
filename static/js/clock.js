@@ -24,10 +24,10 @@ function updateTime() {
     let second = data.getSeconds();
 
     if (hour >= 19 || hour <= 6) {
-        document.getElementById("sun-state-image").src = "/static/img/moon.png"
+        document.getElementById("sun-state-image").src = "static/img/moon.png"
     } else {
 
-        document.getElementById("sun-state-image").src = "/static/img/sun.png"
+        document.getElementById("sun-state-image").src = "static/img/sun.png"
     }
 
     let month = ["jan.", "feb.", "mar.", "apr.", "may", "jun.", "jul.","aug.","sep.","oct.", "nov.","dec."]

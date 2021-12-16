@@ -33,26 +33,26 @@
 	<link rel="alternate" type="application/rss+xml" href="https://www.pwrscript.dedyn.io/rss.xml" title="News from PWRScript">
 
     <!-- Favicon -->
-	<link rel="shortcut icon" href="/static/favicon/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="/static/favicon/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="/static/favicon/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="/static/favicon/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/static/favicon/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="/static/favicon/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16.png">
-	<link rel="apple-touch-icon" href="/static/favicon/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/static/favicon/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/static/favicon/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/static/favicon/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/static/favicon/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/static/favicon/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/static/favicon/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/favicon-180.png">
+	<link rel="shortcut icon" href="static/favicon/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="static/favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="static/favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="static/favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="static/favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="static/favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="static/favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="static/favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="static/favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="static/favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="static/favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="static/favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="static/favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="static/favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/favicon/favicon-180.png">
 	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="/static/favicon/favicon-144.png">
-	<meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+	<meta name="msapplication-TileImage" content="static/favicon/favicon-144.png">
+	<meta name="msapplication-config" content="static/favicon/browserconfig.xml">
 	<meta name="apple-mobile-web-app-status-bar" content="#1B129C" />
 	<meta name="theme-color" content="#1B129C" />
 
@@ -72,7 +72,7 @@
 		if('serviceWorker' in navigator) {
 			window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("/serviceWorker.js")
+      .register("serviceWorker.js")
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err))
   })
@@ -218,11 +218,8 @@
 </html>
 
 <!-- Scripts -->
-
 <script src="static/js/background.js"></script>
 <script src="static/js/clock.js"></script>
 <script src="static/js/nav.js"></script>
 <script async src="static/js/projectsload.js"></script>
-
 <script src="static/js/feedloader.js"></script>
-<!-- <script src="/static/js/navbutton.js"></script> -->

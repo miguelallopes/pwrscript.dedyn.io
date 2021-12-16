@@ -2,7 +2,7 @@
 
     let number = Math.floor(Math.random() * 2);
 
-    document.body.style.background = "url('/static/img/background" + number + ".gif')" 
+    document.body.style.background = "url('static/img/background" + number + ".gif')" 
     document.body.style.backgroundPosition = "center"
     document.body.style.backgroundAttachment = "fixed"
     
