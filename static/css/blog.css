@@ -65,22 +65,46 @@ h1 {
 }
 
 .center {
-    position: absolute;
-    top: calc(50% - 70px);
+    
+    width: 100%
+    ;
+    
+    position: absolute; top: calc(50% - 70px); transform: translate (-50%, -50%);
+    margin: auto;
+
+    
     
 
+}
+
+#about-me-card button {
+    position: relative;
+    width: 100%;
+    
 }
 
 #about-me-card {
     border: 5px solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
+    background-color: rgba(83, 80, 85, 0.603);
+    
+    position: relative;
+    top: calc(50% - 70px);
+    left: auto;
     margin: auto;
     text-align: center;
+
+    
+    
+    transform: translate (-50%, -50%);
+    
 }
 
 #about-me-card img {
-    border-radius: 50%;  display: block;
+    border-radius: 50%; 
+     display: block;
+     width: 40%;
     margin-left: auto;
     margin-right: auto;
 
@@ -105,7 +129,7 @@ h1 {
     
     text-decoration: none;
     
-    color: blue;
+    color: rgb(73, 73, 224);
     font-weight: bolder;
     font-size: large;
 }
@@ -205,7 +229,6 @@ h1 {
 .social-icon {
     display: inline-block;
     
-    float: left;
     background-color: black;
     width: 75px;
     height: 75px;

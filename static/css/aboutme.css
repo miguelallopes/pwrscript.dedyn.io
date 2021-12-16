@@ -1,0 +1,25 @@
+#terminal {
+    position: absolute;
+    background-color: black;
+    color: green;
+    z-index: 1;
+}
+
+.terminal-output-indicator {
+    
+}
+
+#terminal-input {
+    background-color: inherit;
+    color: inherit;
+}
+
+#terminal-output {
+    list-style: none;
+}
+
+#terminal-output ul {
+    
+    margin-left: 0px;
+    padding-left: 0px;
+}

@@ -75,7 +75,7 @@ async function load_projects() {
                             loaded_projects.push( new Project(data) )
                             
                         }
-                )  
+                )
                 )
             });
 
@@ -189,8 +189,34 @@ async function load_social_contacts() {
         
     }
 }
+let born = 7
+
+async function load_about_me() {
+    let a_response = await fetch("/static/json/about_me.json")
+
+    if (a_response.ok) {
+        let a_json = await a_response.json();
+        if (a_json.version == 1) { 
+            document.getElementById("about-me-name").innerText = a_json.name
+
+            born = new Date(2004,12,02,11,8);
+            now = new Date()
+            let bornyears = now.getFullYear() - born.getFullYear()
+            
+            if (now.getMonth() == 11 ) {
+                bornyears= bornyears + 1;
+            }
+
+            
+
+            document.getElementById("about-me-description").innerText = "Hi, I'm a "+ bornyears + " years old student from Portugal  "
+        }
+        
+    }
+}
 
 load_social_contacts()
 load_projects()
+load_about_me()
 
 showAdequateProjects()
