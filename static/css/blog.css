@@ -116,8 +116,8 @@ h1 {
 
 .blog-post-card img {
     
-    height: 30%;
-    max-width: 30%;
+    height: 70%;
+    max-width: 70%;
       
     display: block;
     margin-left: auto;
@@ -228,11 +228,16 @@ h1 {
 
 .social-icon {
     display: inline-block;
-    
+    cursor: pointer;
     background-color: black;
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
+}
+
+.social-icon:hover {
+    transition: 50ms;
+    transform: scale(120%);
 }
 
 #projects-footer img {

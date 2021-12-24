@@ -180,11 +180,13 @@ async function load_social_contacts() {
             loaded_social_contacts["github"] = social_json.github
             loaded_social_contacts["gitlab"] = social_json.gitlab
             loaded_social_contacts["email"] = social_json.email
+            loaded_social_contacts["instagram"] = social_json.instagram
 
             document.getElementById("social-email").href = "mailto:" + loaded_social_contacts["email"]
             document.getElementById("social-discord").href = "https://discord.com/users/" + loaded_social_contacts["discord"]
             document.getElementById("social-github").href = "https://github.com/" + loaded_social_contacts["github"]
             document.getElementById("social-gitlab").href = "https://gitlab.com/" + loaded_social_contacts["gitlab"]
+            document.getElementById("social-instagram").href = "https://www.instagram.com/" + loaded_social_contacts["instagram"]
         }
         
     }
