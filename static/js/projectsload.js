@@ -43,6 +43,9 @@ class Project {
    else if (this.name == "PWRMod") {
 
       this.image = "static/img/pwrmod.png"
+  }else if (this.name == "pwrscript.dedyn.io") {
+
+      this.image = "static/img/pwrscript.png"
   }
         }
 
