@@ -6,7 +6,8 @@
         "pwrscript/Calculadora",
         "pwrscript/crafatar.py",
         "pwrscript/PWRMod",
-        "pwrscript/pwrscript.dedyn.io"
+        "pwrscript/pwrscript.dedyn.io",
+        "pwrscript/TaritaX", 
     ],
     
     "gitlab": [
