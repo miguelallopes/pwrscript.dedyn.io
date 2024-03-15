@@ -1,13 +1,13 @@
 {
     "github": [
-        "pwrscript/PWRUPnPMineExpose", 
-        "pwrscript/GlobalProgramLib",
-        "pwrscript/PWRCord",
-        "pwrscript/Calculadora",
-        "pwrscript/crafatar.py",
-        "pwrscript/PWRMod",
-        "pwrscript/pwrscript.dedyn.io",
-        "pwrscript/TaritaX"
+        "miguelallopes/PWRUPnPMineExpose", 
+        "miguelallopes/GlobalProgramLib",
+        "miguelallopes/PWRCord",
+        "miguelallopes/Calculadora",
+        "miguelallopes/crafatar.py",
+        "miguelallopes/PWRMod",
+        "miguelallopes/pwrscript.dedyn.io",
+        "miguelallopes/TaritaX"
     ],
     
     "gitlab": [
