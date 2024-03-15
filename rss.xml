@@ -4,7 +4,7 @@
 <channel>
 
 <title>PWRScript</title>
-<link>https://www.pwrscript.dedyn.io</link>
+<link>https://old.www.miguelallopes.dev</link>
 <description>The official RSS feed for getting PWRScript news and updates</description>
 <copyright>Copyright (c) 2021-present PWRScript</copyright>
 <webMaster>powerofthescript@outlook.com (Miguel Lopes)</webMaster>
@@ -13,9 +13,9 @@
 <lastBuildDate>Fri, 24 Dec 2021 20:14:00 GMT </lastBuildDate>
 <pubDate>Fri, 24 Dec 2021 20:14:00 GMT </pubDate>
 <image>
-  <url>https://www.pwrscript.dedyn.io/static/img/pwrscript.png</url>
+  <url>https://old.www.miguelallopes.dev/static/img/pwrscript.png</url>
   <title>PWRScript</title>
-  <link>https://www.pwrscript.dedyn.io</link>
+  <link>https://old.www.miguelallopes.dev</link>
 </image>
 
 
@@ -23,22 +23,22 @@
 <item>
     <author>powerofthescript@outlook.com (Miguel Lopes)</author>
     <title>Preparing the PWRScript experience for you...</title>
-    <link>https://www.pwrscript.dedyn.io</link>
-    <guid>https://www.pwrscript.dedyn.io/</guid>
+    <link>https://old.www.miguelallopes.dev</link>
+    <guid>https://old.www.miguelallopes.dev/</guid>
     <description>We will be launching our website at https://www.pwrscript.dedyn.io in a few weeks</description>
     <pubDate>Thu, 25 Nov 2021 21:40:00 GMT </pubDate>
-    <enclosure url="https://www.pwrscript.dedyn.io/static/img/pwrscript.png"
+    <enclosure url="https://old.www.miguelallopes.dev/static/img/pwrscript.png"
     length="265729" type="image/png" />
 </item>
 
 <item>
     <author>powerofthescript@outlook.com (Miguel Lopes)</author>
     <title>Merry christmas everyone!</title>
-    <link>https://www.pwrscript.dedyn.io/static/img/blog/merry_christmas_2021.png</link>
-    <guid>https://www.pwrscript.dedyn.io/static/img/blog/merry_christmas_2021.png/</guid>
+    <link>https://old.www.miguelallopes.dev/static/img/blog/merry_christmas_2021.png</link>
+    <guid>https://old.www.miguelallopes.dev/static/img/blog/merry_christmas_2021.png/</guid>
     <description>Stay safe, healthy and happy with your most loved people near you! Merry Christmas to everyone!</description>
     <pubDate>Fri, 24 Dec 2021 18:35:00 GMT </pubDate>
-    <enclosure url="https://www.pwrscript.dedyn.io/static/img/blog/merry_christmas_2021.png"
+    <enclosure url="https://old.www.miguelallopes.dev/static/img/blog/merry_christmas_2021.png"
     length="265729" type="image/png" />
 </item>
 
